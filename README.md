@@ -17,7 +17,9 @@
 #
 -->
 
-# Cu Freshen Python Docker environment
+# CU Freshen Python Docker environment
+
+added ibmcloudant>=0.1.1 to core/requirements_common.txt
 
 This repository contains sources files needed to build the Python runtimes for Apache OpenWhisk. The build system will produce a series of docker images for each runtime version. These images are used in the platform to execute Python actions.
 
