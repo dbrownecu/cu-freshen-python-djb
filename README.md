@@ -19,6 +19,19 @@
 
 # CU Freshen Python Docker environment
 
+## Note the requirement for ibmcloudant>=0.1.1 in core/requirements_common.txt presents the following conflicts
+
+```angular2html
+The conflict is caused by:
+    The user requested PyJWT==1.7.1
+    twilio 6.63.2 depends on PyJWT==1.7.1
+    ibmcloudant 0.1.2 depends on PyJWT<3.0.0 and >=2.0.1
+    The user requested PyJWT==1.7.1
+    twilio 6.63.2 depends on PyJWT==1.7.1
+    ibmcloudant 0.1.1 depends on PyJWT<3.0.0 and >=2.0.1
+
+
+```
 added ibmcloudant>=0.1.1 to core/requirements_common.txt
 
 This repository contains sources files needed to build the Python runtimes for Apache OpenWhisk. The build system will produce a series of docker images for each runtime version. These images are used in the platform to execute Python actions.
