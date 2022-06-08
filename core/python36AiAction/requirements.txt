@@ -7,7 +7,6 @@ python-rclone == 0.0.2
 # more ML/DL packages
 keras==2.6.0
 opencv-python
-opencv-contrib-python
 Cython==0.29.24
 tools==0.1.9
 scikit-image==0.17.2
