@@ -19,6 +19,7 @@
 
 removed ibmcloudant>=0.1.1 to core/requirements_common.txt
 added cloudant to core/requirements_common.txt
+added opencv-python
 
 This repository contains sources files needed to build the Python runtimes for Apache OpenWhisk. The build system will produce a series of docker images for each runtime version. These images are used in the platform to execute Python actions.
 
